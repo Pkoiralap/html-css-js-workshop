@@ -1,0 +1,16 @@
+.navbar {
+    position: fixed;
+    top: 0px;
+    left: 0px;
+
+    width: 100vw;
+    height: 80px;
+    background-color: gray;
+}
+
+.content {
+    margin-top: 85px;
+    height: 80vh;
+    background-color: azure;
+    padding: 50px;
+}
