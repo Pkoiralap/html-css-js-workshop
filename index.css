@@ -6,6 +6,24 @@
     width: 100vw;
     height: 80px;
     background-color: gray;
+
+    display: flex;
+}
+
+.navbar-content {
+    flex: 2;
+    background-color: lightsteelblue;
+    margin: 5px;
+    justify-content: center;
+    align-items: center;
+    display: flex;
+    flex-direction: row-reverse;
+}
+
+.navbar-content:hover {
+    background-color: rgb(110, 154, 213);
+    color: gray;
+    cursor: pointer;
 }
 
 .content {
